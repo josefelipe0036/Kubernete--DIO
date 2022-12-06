@@ -25,7 +25,7 @@ spec:
         app: mysql
     spec:
       containers:
-      - image: aguin1/projeto-database:1.0
+      - image: ~/ESTUDOS/projeto kuber/k8s-projeto1-app-base:1.0
         args: 
         - "--ignore-db-dir=lost+found"
         imagePullPolicy: Always
